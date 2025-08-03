@@ -1,12 +1,15 @@
-
 'use client';
 
 import { motion } from 'framer-motion';
 import { CheckCircle2, Star, Zap, Crown, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
+// Define the billing cycle type
+type BillingCycle = 'monthly' | 'yearly';
+
 const Pricing = () => {
-  const [billingCycle, setBillingCycle] = useState('monthly');
+  // Type the state with the specific type
+  const [billingCycle, setBillingCycle] = useState<BillingCycle>('monthly');
 
   const plans = [
     {
@@ -189,5 +192,3 @@ const Pricing = () => {
 };
 
 export default Pricing;
-
-

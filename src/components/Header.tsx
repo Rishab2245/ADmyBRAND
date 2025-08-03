@@ -2,13 +2,13 @@
 
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import { Menu, X, Sun, Moon, Zap } from 'lucide-react';
+import { Menu, X, Zap } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const { theme, toggleTheme } = useTheme();
+  // const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
