@@ -1,0 +1,16 @@
+{
+  "name": "ADmyBRAND AI Suite",
+  "short_name": "ADmyBRAND AI",
+  "description": "Revolutionary AI-powered marketing platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#8B5CF6",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
