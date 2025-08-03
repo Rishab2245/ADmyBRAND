@@ -4,7 +4,7 @@ A stunning, modern landing page for ADmyBRAND AI Suite built with Next.js 14, Ty
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://ADmyBRAND.vercel.app) (Will be available after deployment)
+[View Live Demo](https://a-dmy-brand-beta.vercel.app/) (Will be available after deployment)
 
 ## ✨ Features
 
